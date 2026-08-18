@@ -14,6 +14,17 @@ npm install -g pm2
 ```
 *(Note: Running `npm install` automatically installs express, mssql, and localtunnel as defined in `package.json`)*
 
+**Configure Environment Variables:**
+Create a `.env` file in the root of this folder (if it doesn't already exist) and configure your database and API credentials. Here is an example of what it should look like:
+```env
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_SERVER=localhost
+DB_DATABASE=your_database
+API_KEY=your_secret_api_key
+PORT=3000
+```
+
 ##  2. How to Run
 
 ### Start it immediately
