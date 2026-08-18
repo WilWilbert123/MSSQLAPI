@@ -1,0 +1,13 @@
+ID 
+rd_2xcm2nWW9IqAjP3rtYpYpZyOy1S
+domain
+extremely-accurate-mustang.ngrok-free.app
+
+cmd
+ngrok config add-authtoken 2tpar78UURkqJl6gPpN51GZGTjW_53TocY3kvu6Jg7qgWFxqP
+
+
+ncpa.cpl
+Double-click Internet Protocol Version 4 (TCP/IPv4).
+Select "Use the following DNS server addresses" and
+ enter 8.8.8.8 and 8.8.4.4.
