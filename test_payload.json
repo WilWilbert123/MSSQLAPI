@@ -1,0 +1,62 @@
+{
+    "header": {
+        "OrderCode": "ORD-2026-0009",
+        "OrderDateCreated": "2026-08-14T00:00:00.000Z",
+        "OrderTimeCreated": "1970-01-01T14:30:00.000Z",
+        "EmployeeName": "Joshua",
+        "EmployeeID": "EMP-102",
+        "TotalQty": 3,
+        "TotalAmt": 1500,
+        "TotalDisc": 200,
+        "DiscType": 2,
+        "DiscValue": "200",
+        "Vat": 139.29,
+        "VatSales": 1160.71,
+        "VatExempt": 0,
+        "LessVat": 0,
+        "TransStatus": 1,
+        "SubsidyAmt": 0,
+        "IsSaved": true
+    },
+    "details": [
+        {
+            "OrderCode": "ORD-2026-0009",
+            "ItemCode": "ITM-040",
+            "ItemName": "Seafood Pasta",
+            "Qty": 2,
+            "Price": 500,
+            "Subtotal": 1000
+        },
+        {
+            "OrderCode": "ORD-2026-0009",
+            "ItemCode": "ITM-045",
+            "ItemName": "Garlic Bread",
+            "Qty": 1,
+            "Price": 500,
+            "Subtotal": 500
+        }
+    ],
+    "payments": [
+        {
+            "OrderCode": "ORD-2026-0009",
+            "PayMethod": "CREDIT CARD",
+            "PayAmt": 1300,
+            "CustName": "Claire Oida",
+            "CardNo": "4111********1111",
+            "CardType": "VISA",
+            "AppCode": "APP-12345",
+            "BatchNo": "BAT-2005"
+        }
+    ],
+    "discounts": [
+        {
+            "OrderCode": "ORD-2026-0009",
+            "CustName": "Claire Oida",
+            "DiscIDNo": "PROMO-CLAIRE200",
+            "TIN": "123-456-789",
+            "NameOfChild": "Abby",
+            "Birthday": "November 25, 2017",
+            "AgeOfChild": 8
+        }
+    ]
+}

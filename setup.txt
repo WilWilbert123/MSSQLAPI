@@ -1,0 +1,26 @@
+npm install
+npm install express mssql localtunnel
+npm install -g pm2
+
+
+HOw to run 
+
+Double-click 
+
+ Run_API_Hidden.vbs
+
+ FIRST: This will immediately start 
+ the API in the hidden background 
+ so you can start using it right now.
+
+Then double-click 
+
+Setup_AutoRun.vbs
+: This tells the PC 
+to automatically trigger 
+
+Run_API_Hidden.vbs 
+
+for you tomorrow (or whenever 
+you reboot),
+ so you never have to click it again!

@@ -1,0 +1,17 @@
+{
+  "name": "mssql-visa-service",
+  "version": "1.0.0",
+  "description": "Node.js Express API to insert data into local MSSQL database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "localtunnel": "^2.0.2",
+    "mssql": "^11.0.1"
+  }
+}
